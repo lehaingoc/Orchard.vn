@@ -215,3 +215,125 @@ ul.sub-menu li a {
 .star {
     color: yellow;
 }
+/*vinh*/
+#form-comment {
+    border: 1px solid #000;
+    width: 960px;
+    height: 450px;
+    background: rgba(38, 24, 103, 1);
+}
+
+.picture_comment {
+    display: flex;
+    width: 373px;
+    height: 450;
+}
+
+/* .form{
+    display: flex;
+    height: 450px;
+    width: 587px;
+} */
+
+
+.form__content {
+    height: 450px;
+    color: #ffffff !important;
+    margin: 40px 0px;
+}
+
+.wrap_form__content {
+    height: 100%;
+    display: flex;
+}
+
+.flex__image {
+    height: 100%;
+}
+
+.flex__image img {
+    height: 100%;
+}
+
+.content__submit {
+    width: 100%;
+    background-color: #261867;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__ques .form_group {
+    margin: 10px 0px;
+}
+
+.mg-in input:nth-child(2) {
+    margin-left: 20px;
+}
+
+.content__ques .form_group input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0px;
+    padding: 5px 15px !important;
+    color: #fff !important;
+}
+
+.content__ques .form_group input::placeholder {
+    color: #f5f5f5;
+}
+
+.content__ques .btn_submit_cm {
+    padding: 20px 25px;
+    border-radius: 80%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+.wrap__footer {
+    background-color: #E5E5E5;
+}
+
+.wrap__footer .pd_orc {
+    border-bottom: 1px solid;
+    padding: 40px;
+}
+
+.content_us {
+    display: flex;
+}
+.img_logo_socal {
+    margin-top: 40px;
+}
+.img_logo_socal > img{
+    width: 50px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.content_us>div {
+    width: 100%;
+    margin: 0px 40px;
+    font-size: 17px;
+    padding: 20px 0px;
+    line-height: 25px;
+}
+.content_us > div> ul{
+    margin: 0px;
+}
+.content_us > div> ul > li{
+    margin-left: 1em;
+    margin: 5px 0px;
+}
+.content_us > div> ul > li > a{
+    color: #444444 !important;
+}
+.content_us .img_noti_DM > img{
+    display: block;
+    margin: 20px 0px;
+}
